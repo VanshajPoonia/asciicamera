@@ -197,12 +197,12 @@ function Settings({ settings, onChange }: SettingsCompProps) {
                     <div className="flex items-center justify-center gap-6 mb-3">
                         {[
                             {
-                                href: 'https://github.com/pshycodr/V-cam',
+                                href: 'https://github.com/VanshajPoonia/,
                                 Icon: FaGithub,
                                 label: 'GitHub',
                             },
-                            { href: 'https://x.com/the_Aroy', Icon: FaXTwitter, label: 'Twitter' },
-                            { href: 'https://pshycodr.me', Icon: IoGlobe, label: 'Website' },
+                            { href: 'https://x.com/PooniaVanshaj', Icon: FaXTwitter, label: 'Twitter' },
+                            { href: 'https://iamvanshajpoonia.vercel.app/', Icon: IoGlobe, label: 'Website' },
                         ].map(({ href, Icon, label }) => (
                             <a
                                 key={href}

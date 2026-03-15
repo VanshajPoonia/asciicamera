@@ -202,7 +202,7 @@ function Settings({ settings, onChange }: SettingsCompProps) {
                                 label: 'GitHub',
                             },
                             { href: 'https://x.com/PooniaVanshaj', Icon: FaXTwitter, label: 'Twitter' },
-                            { href: 'https://iamvanshajpoonia.vercel.app/', Icon: IoGlobe, label: 'Website' },
+                            { href: 'https://vanshajpoonia.com/', Icon: IoGlobe, label: 'Website' },
                         ].map(({ href, Icon, label }) => (
                             <a
                                 key={href}

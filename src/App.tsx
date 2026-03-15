@@ -2,7 +2,7 @@ import { useCallback, useEffect, useRef, useState } from 'react'
 import AsciiView from './components/asciiView'
 import Header from './components/header'
 import Settings from './components/settings'
-import {
+import type {
     AsciiRendererHandle,
     AsciiSettings,
     CameraFacingMode,

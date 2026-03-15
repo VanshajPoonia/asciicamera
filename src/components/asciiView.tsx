@@ -1,5 +1,6 @@
 import { forwardRef, memo, useCallback, useEffect, useImperativeHandle, useRef } from 'react'
-import { AsciiRendererHandle, AsciiSettings, CHAR_SETS, ProcessingStats } from '../types/types'
+import type { AsciiRendererHandle, AsciiSettings, ProcessingStats } from '../types/types'
+import { CHAR_SETS } from '../types/types'
 import { adjustColor, createBrightnessMap, getChar, getLuminance } from '../utils/asciiUtils'
 
 interface AsciiViewProps {

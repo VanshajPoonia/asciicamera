@@ -1,5 +1,5 @@
 import { memo } from 'react'
-import { ProcessingStats } from '../types/types'
+import type { ProcessingStats } from '../types/types'
 
 interface HeaderProps extends ProcessingStats {
     width: number

@@ -2,7 +2,7 @@ import { memo, useState } from 'react'
 import { FaGithub, FaXTwitter } from 'react-icons/fa6'
 import { IoClose, IoGlobe } from 'react-icons/io5'
 import { LuSettings2 } from 'react-icons/lu'
-import { AsciiSettings } from '../types/types'
+import type { AsciiSettings } from '../types/types'
 
 interface SettingsCompProps {
     settings: AsciiSettings

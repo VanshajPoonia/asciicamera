@@ -197,7 +197,7 @@ function Settings({ settings, onChange }: SettingsCompProps) {
                     <div className="flex items-center justify-center gap-6 mb-3">
                         {[
                             {
-                                href: 'https://github.com/VanshajPoonia/,
+                                href: 'https://github.com/VanshajPoonia/',
                                 Icon: FaGithub,
                                 label: 'GitHub',
                             },
